@@ -8,6 +8,7 @@ void selection_sort(int *array, size_t size)
 {
 	size_t i = 0, j = 0;
 	int min = array[i], tmp = 0, lmin = 0;
+	bool fl = 0;
 
 	if (!array || size < 2)
 		return;
@@ -19,11 +20,17 @@ void selection_sort(int *array, size_t size)
 			{
 				min = array[j];
 				lmin = j;
+				fl = 1;
 			}
+			
+	}
+		if (fl)
+		{
+			tmp = array[i];
+			array[lmin] = tmp;
+			array[i] = min;
 		}
-		tmp = array[i];
-		array[lmin] = tmp;
-		array[i] = min;
+		fl = 0;
 		print_array(array, size);
 	}
 }
