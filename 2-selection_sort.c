@@ -7,10 +7,10 @@
 void selection_sort(int *array, size_t size)
 {
 	size_t i = 0, j = 0;
-	int min = array[i], tmp = 0, lmin = 0;
+	int min = 0, tmp = 0, lmin = 0;
 	bool fl = 0;
 
-	if (array == NULL || size < 2)
+	if (!array || size < 2)
 		return;
 	for (i = 0; i < size - 1; i++)
 	{
@@ -32,6 +32,5 @@ void selection_sort(int *array, size_t size)
 			print_array(array, size);
 		}
 		fl = 0;
-		
 	}
 }
