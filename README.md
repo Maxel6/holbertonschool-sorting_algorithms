@@ -100,3 +100,15 @@ All of the following files are programs written in C :
 
 |**Filename**|**Description**|
 |:-------|:---------:|
+|`0-O`|the big O notations of the time complexity of the Bubble sort algorithm|
+|`0-bubble_sort.c`|function that sorts an array of integers in ascending order using the Bubble sort algorithm|
+|`1-O`|The big O notations of the time complexity of the Insertion sort algorithm|
+|`1-insertion_sort_list.c`|Function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm|
+|`2-O`|The big O notations of the time complexity of the Selection sort algorithm|
+|`2-selection_sort.c`|Function that sorts an array of integers in ascending order using the Selection sort algorithm|
+|`3-O`|The big O notations of the time complexity of the Quick sort algorithm|
+|`3-quick_sort.c`|Function that sorts an array of integers in ascending order using the Quick sort algorithm|
+|`README.md`|Readme file of this project|
+|`print_array.c`|Prints an array of integers|
+|`print_list.c`|Prints a list of integers|
+|`sort.h`|Header file of this project|
