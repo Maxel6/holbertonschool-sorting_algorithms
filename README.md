@@ -112,3 +112,8 @@ All of the following files are programs written in C :
 |`print_array.c`|Prints an array of integers|
 |`print_list.c`|Prints a list of integers|
 |`sort.h`|Header file of this project|
+
+## Authors :writing_hand:
+Written by :
+- **[Axel Malka](https://github.com/Maxel6)**<br>
+- **[Hugo Castéras](https://github.com/hug0-cstrs)**
